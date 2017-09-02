@@ -4,7 +4,7 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
 {
     log.Info($"C# Timer trigger function executed at: {DateTime.Now}");
 
-    string iothubcs = "HostName=EGIoTHubD2C.azure-devices.net;DeviceId=emulator;SharedAccessKey=lVyFihjfImMQeKiddYWoA1aFIQXnh7tMEPg4/Zr81Q8=";
+    string iothubcs = "<< Device Connection String >>";
 
     double sAccelXBase = 0;
     double sAccelYBase = 0;
