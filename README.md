@@ -14,4 +14,6 @@ Azure Iot Hubに"emulator"という名前のデバイスを登録し、接続文
 
 ```json
 {"time":"2017...","accelx":0.01,"accely":-0.02,"accelz":-0.9812,"temp":27.563,"ambience":27.563, "humidity":56.72, "pressure":1001.03}
-```
+``` 
+
+※ [IoT Kit Hands-on Ver4](http://github.com/ms-iotkithol-jp/IoTKitHoLV4)の入力デバイスとしても使えます。 
