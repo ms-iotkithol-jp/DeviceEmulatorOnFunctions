@@ -13,5 +13,5 @@ Azure Iot Hubに"emulator"という名前のデバイスを登録し、接続文
 1分ごとに加速度、温度、湿度、時間がIoT Hubに60秒分まとめて送付します。 
 
 ```json
-{"time":"2017...","accelx":0.01,"accely":-0.02,"accelz":-0.9812,"temp":27.563,"humidity":56.72}
+{"time":"2017...","accelx":0.01,"accely":-0.02,"accelz":-0.9812,"temp":27.563,"ambience":27.563, "humidity":56.72, "pressure":1001.03}
 ```
