@@ -2,6 +2,7 @@
 実デバイスめんどくさーい、じゃ、バーチャルマシン？それもたちあげんのめんどくせー。。。 
 というあなたへ  
 サーバーレスのAzure Functionsで気軽にAzure IoT Hubにセンサー情報を送信するデバイスエミュレータサンプルです。 
+[Azure ポータルの説明](https://docs.microsoft.com/ja-jp/azure/azure-functions/functions-create-scheduled-function)を参考にして、
 Azure Functionsで、タイマー起動の関数を作り、project.jsonを追加、run.csxを全部上書きして、 
 Azure Iot Hubに"emulator"という名前のデバイスを登録し、接続文字列をiothubcsに設定します。 
 
@@ -17,3 +18,4 @@ Azure Iot Hubに"emulator"という名前のデバイスを登録し、接続文
 ``` 
 
 ※ [IoT Kit Hands-on Ver4](http://github.com/ms-iotkithol-jp/IoTKitHoLV4)の入力デバイスとしても使えます。 
+※ ただし、クラウドからこのデバイスエミュレータにコマンドを送ることはできません。（そのうち追加します）
